@@ -30,7 +30,7 @@ export default function Home() {
               <button className=' bg-purple-500 shadow-lg p-2 py-1 rounded-lg font-bold text-white cursor-pointer transition-all hover:text-2xl'><a target='_blank' href="https://github.com/nileXrana">GitHub</a></button>
             </div>
           </div>
-          <div className="relative">
+          <div className="relative mb-20">
             <Image className="mix-blend-darken" alt="image of a vector" src={"/vector.jpg"} fill />
           </div>
         </section>

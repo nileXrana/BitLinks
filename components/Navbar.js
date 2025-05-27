@@ -9,7 +9,7 @@ const Navbar = () => {
             <Image width={40} height={40} src="/logo.png" alt='logo'/>
             <Link href="/"><b>BitLinks</b></Link>
         </div>
-        <ul className='flex gap-5 items-center'>
+        <ul className='flex gap-5 items-center max-sm:gap-3 max-sm:text-sm'>
             <Link href="/"><li className='max-sm:hidden transition-all hover:text-xl'>Home</li></Link>
             <Link href="/shorten"><li className='transition-all hover:text-xl'>Shorten</li></Link>
             <Link href="/about"><li className='transition-all hover:text-xl'>About</li></Link>

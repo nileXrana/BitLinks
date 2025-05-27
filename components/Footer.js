@@ -3,7 +3,7 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <div className="w-full text-center p-4 text-white text-sm absolute bottom-0 bg-purple-700 flex items-center justify-center">
+        <div className="w-full text-center p-4 text-white text-sm fixed bottom-0 bg-purple-700 flex items-center justify-center">
             Made with <lord-icon
                 src="https://cdn.lordicon.com/gbkitytd.json"
                 trigger="loop"

@@ -1,10 +1,12 @@
 import React from 'react'
 import Link from 'next/link'
+import Image from 'next/image'
 
 const Navbar = () => {
   return (
     <nav className='text-white bg-purple-700 p-3 flex justify-between items-center'>
-        <div className='text-xl transition-all hover:text-2xl'>
+        <div className='text-xl transition-all hover:text-2xl flex items-center gap-1'>
+            <Image width={40} height={40} src="/logo.png" alt='logo'/>
             <Link href="/"><b>BitLinks</b></Link>
         </div>
         <ul className='flex gap-5 items-center'>

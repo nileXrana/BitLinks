@@ -1,6 +1,6 @@
 # BitLinks
 
-BitLinks is a modern, efficient URL shortener that converts long, complex URLs into short, easy-to-share links. Ideal for social media, messaging apps, or emails — it keeps your links neat, clean, and professional.
+BitLinks is a modern, efficient URL shortener that converts long, complex URLs into short, easy-to-share links. Ideal for social media, messaging apps, or emails — It keeps your links neat, clean, and professional.
 
 ## ✨ Features
 

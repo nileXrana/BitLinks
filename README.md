@@ -30,4 +30,4 @@ npm install
 npm run dev
 ```
 ## Live Link :- 
-https://bit-links-pearl.vercel.app/
+https://bitlinks.nileshrana.me

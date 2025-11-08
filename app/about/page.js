@@ -31,7 +31,7 @@ const Page = () => {
             </div>
             <div className="space-y-4 text-gray-700">
               <p className="leading-relaxed">
-                I'm <span className="font-bold text-purple-600">Nilesh Rana</span>, a passionate full stack developer.
+                I&apos;m <span className="font-bold text-purple-600">Nilesh Rana</span>, a passionate full stack developer.
               </p>
               <p className="leading-relaxed">
                 I built BitLinks to showcase modern web development practices while solving a real problem - creating a URL shortener that respects user privacy.
@@ -90,7 +90,7 @@ const Page = () => {
                 </li>
               </ul>
               <p className="leading-relaxed pt-4">
-                We're open to suggestions and continuously improving the service!
+                We&apos;re open to suggestions and continuously improving the service!
               </p>
             </div>
           </div>

@@ -1,5 +1,6 @@
 "use client"
 import React from 'react'
+import Link from 'next/link'
 
 const Footer = () => {
     return (
@@ -18,10 +19,10 @@ const Footer = () => {
                     <div>
                         <h4 className="font-bold mb-3 text-lg">Quick Links</h4>
                         <ul className="space-y-2 text-purple-100">
-                            <li><a href="/" className="hover:text-white transition-colors">Home</a></li>
-                            <li><a href="/shorten" className="hover:text-white transition-colors">Shorten URL</a></li>
-                            <li><a href="/about" className="hover:text-white transition-colors">About</a></li>
-                            <li><a href="/contact" className="hover:text-white transition-colors">Contact</a></li>
+                            <li><Link href="/" className="hover:text-white transition-colors">Home</Link></li>
+                            <li><Link href="/shorten" className="hover:text-white transition-colors">Shorten URL</Link></li>
+                            <li><Link href="/about" className="hover:text-white transition-colors">About</Link></li>
+                            <li><Link href="/contact" className="hover:text-white transition-colors">Contact</Link></li>
                         </ul>
                     </div>
 

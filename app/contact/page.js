@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from 'next/link'
 
 const Page = () => {
   return (
@@ -15,7 +16,7 @@ const Page = () => {
             Contact Me
           </h1>
           <p className="text-gray-600 text-lg">
-            Have questions or suggestions? I'd love to hear from you!
+            Have questions or suggestions? I&apos;d love to hear from you!
           </p>
         </div>
 
@@ -101,9 +102,9 @@ const Page = () => {
         {/* Additional CTA */}
         <div className="text-center mt-12">
           <p className="text-gray-600 mb-6">Looking for a URL shortener?</p>
-          <a href="/shorten" className="inline-block bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-purple-500/30 transition-all hover:scale-105">
+          <Link href="/shorten" className="inline-block bg-gradient-to-r from-purple-600 to-purple-700 hover:from-purple-700 hover:to-purple-800 text-white px-8 py-4 rounded-xl font-bold shadow-lg shadow-purple-500/30 transition-all hover:scale-105">
             Try BitLinks Now
-          </a>
+          </Link>
         </div>
       </div>
     </div>

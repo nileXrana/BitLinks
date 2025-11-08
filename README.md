@@ -24,7 +24,7 @@ BitLinks is a modern, efficient URL shortener that converts long, complex URLs i
 ## 📌 Installation
 
 ```bash
-git clone https://github.com/yourusername/bitlinks.git
+git clone https://github.com/nilexrana/bitlinks.git
 cd bitlinks
 npm install
 npm run dev
